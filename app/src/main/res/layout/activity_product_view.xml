@@ -22,43 +22,6 @@
                 android:background="#fff"
                 android:orientation="vertical">
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/apv_image"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
-                        android:adjustViewBounds="true" />
-
-                    <ProgressBar
-                        android:id="@+id/progressbar"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true" />
-
-                    <TextView
-                        android:id="@+id/apv_discount"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_alignParentTop="true"
-                        android:layout_alignParentEnd="true"
-                        android:layout_alignParentRight="true"
-                        android:background="@drawable/rect"
-                        android:paddingLeft="@dimen/margin_10dp"
-                        android:paddingTop="@dimen/margin_5dp"
-                        android:paddingRight="10dp"
-                        android:paddingBottom="@dimen/margin_5dp"
-                        android:text="10%"
-                        android:textColor="@color/white"
-                        android:textSize="18dp"
-                        android:textStyle="bold"
-                        android:visibility="visible" />
-                </RelativeLayout>
-
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -124,8 +87,6 @@
                 </LinearLayout>
 
 
-                <!--*********Shipping**********-->
-
                 <LinearLayout
 
                     android:layout_width="match_parent"
@@ -133,18 +94,6 @@
                     android:gravity="center"
                     android:orientation="horizontal"
                     android:padding="16dp">
-
-                    <com.kondwani.project.shopit.customfonts.TextViewRegular
-
-                        android:id="@+id/free"
-                        android:layout_width="110dp"
-                        android:layout_height="28dp"
-                        android:background="@drawable/rect"
-                        android:gravity="center"
-                        android:text="Free Shipping"
-                        android:textColor="#fff"
-
-                        />
 
                     <LinearLayout
 
@@ -171,16 +120,22 @@
                             android:textColor="@color/colorTex"
                             android:textSize="13dp" />
                     </LinearLayout>
+
+                    <com.kondwani.project.shopit.customfonts.TextViewRegular
+
+                        android:id="@+id/free"
+                        android:layout_width="110dp"
+                        android:layout_height="28dp"
+                        android:background="@drawable/rect"
+                        android:gravity="center"
+                        android:text="Free Shipping"
+                        android:textColor="#fff"
+
+                        />
                 </LinearLayout>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/colordevider"
-                    android:padding="16dp" />
 
-
-                <!--*********weight**********-->
+                <!--*********Shipping**********-->
 
                 <LinearLayout
 
@@ -208,17 +163,6 @@
                         android:textColor="@color/colorTex" />
                 </LinearLayout>
 
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginTop="16dp"
-                    android:background="@color/colordevider"
-                    android:padding="16dp" />
-
-
-                <!--*********discription**********-->
-
                 <LinearLayout
 
                     android:layout_width="match_parent"
@@ -241,15 +185,8 @@
 
                 </LinearLayout>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginTop="16dp"
-                    android:background="@color/colordevider"
-                    android:padding="16dp" />
 
-
-                <!--*********Est. delivery**********-->
+                <!--*********weight**********-->
 
                 <LinearLayout
 
@@ -268,15 +205,6 @@
 
                 </LinearLayout>
 
-                <View
-
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/colordevider"
-                    android:padding="16dp" />
-
-
-                <!--*********Returns**********-->
 
                 <LinearLayout
 
@@ -305,15 +233,8 @@
 
                 </LinearLayout>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginTop="16dp"
-                    android:background="@color/colordevider"
-                    android:padding="16dp" />
 
-
-                <!--*********Guarantee**********-->
+                <!--*********discription**********-->
 
                 <LinearLayout
 
@@ -345,19 +266,71 @@
 
                 </LinearLayout>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginTop="16dp"
-                    android:background="@color/colordevider"
-                    android:padding="16dp" />
-
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:weightSum="2">
+
+                    <LinearLayout
+                        android:id="@+id/add_to_cart_ll"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:gravity="bottom"
+                            android:src="@drawable/icon1" />
+
+                        <com.kondwani.project.shopit.customfonts.TextViewRegular
+                            android:id="@+id/addtocart"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Add to cart"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12dp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/apv_share"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:gravity="bottom"
+                            android:src="@drawable/icon2"
+
+                            />
+
+                        <com.kondwani.project.shopit.customfonts.TextViewRegular
+                            android:id="@+id/share"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Share"
+                            android:textColor="#4c71f5"
+                            android:textSize="12dp" />
+
+                    </LinearLayout>
 
                     <RelativeLayout
                         android:id="@+id/quantity_rl"
@@ -420,36 +393,6 @@
                         </LinearLayout>
                     </RelativeLayout>
 
-
-                    <LinearLayout
-                        android:id="@+id/add_to_cart_ll"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="20dp"
-                        android:layout_weight="1"
-                        android:orientation="vertical"
-                        android:visibility="visible">
-
-                        <ImageView
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
-                            android:layout_gravity="center"
-                            android:layout_weight="1"
-                            android:gravity="bottom"
-                            android:src="@drawable/icon1" />
-
-                        <com.kondwani.project.shopit.customfonts.TextViewRegular
-                            android:id="@+id/addtocart"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:gravity="center"
-                            android:text="Add to cart"
-                            android:textColor="@color/colorPrimary"
-                            android:textSize="12dp" />
-
-                    </LinearLayout>
-
                     <View
 
                         android:layout_width="1dp"
@@ -459,36 +402,6 @@
                         android:background="@color/colordevider"
 
                         />
-
-                    <LinearLayout
-                        android:id="@+id/apv_share"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="20dp"
-                        android:layout_weight="1"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
-                            android:layout_gravity="center"
-                            android:layout_weight="1"
-                            android:gravity="bottom"
-                            android:src="@drawable/icon2"
-
-                            />
-
-                        <com.kondwani.project.shopit.customfonts.TextViewRegular
-                            android:id="@+id/share"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:gravity="center"
-                            android:text="Share"
-                            android:textColor="#4c71f5"
-                            android:textSize="12dp" />
-
-                    </LinearLayout>
 
                     <View
 
@@ -503,6 +416,93 @@
 
 
                 </LinearLayout>
+
+
+                <!--*********Est. delivery**********-->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/apv_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:adjustViewBounds="true" />
+
+                    <ProgressBar
+                        android:id="@+id/progressbar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        android:id="@+id/apv_discount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/rect"
+                        android:paddingLeft="@dimen/margin_10dp"
+                        android:paddingTop="@dimen/margin_5dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="@dimen/margin_5dp"
+                        android:text="10%"
+                        android:textColor="@color/white"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colordevider"
+                    android:padding="16dp" />
+
+
+                <!--*********Returns**********-->
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/colordevider"
+                    android:padding="16dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/colordevider"
+                    android:padding="16dp" />
+
+
+                <!--*********Guarantee**********-->
+
+                <View
+
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colordevider"
+                    android:padding="16dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/colordevider"
+                    android:padding="16dp" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/colordevider"
+                    android:padding="16dp" />
 
             </LinearLayout>
         </LinearLayout>

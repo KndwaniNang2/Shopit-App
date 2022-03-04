@@ -33,7 +33,7 @@
             android:gravity="center"
             android:padding="5dp"
             android:text="@string/signUp"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/black"
             android:textSize="35sp"
             android:textStyle="bold" />
 
@@ -141,7 +141,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:background="@drawable/loginbutton_selector"
+            android:background="@drawable/side_nav_bar"
             android:padding="3dp"
             android:text="@string/signUp"
             android:textColor="@color/white"

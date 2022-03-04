@@ -5,11 +5,6 @@ import android.content.Intent;
 import android.os.Build;
 import android.util.Log;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.iid.FirebaseInstanceId;
-import com.google.firebase.iid.InstanceIdResult;
-import com.google.firebase.messaging.FirebaseMessaging;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 import com.kondwani.project.shopit.activity.MainActivity;
@@ -21,9 +16,11 @@ import com.quintus.labs.grocerystore.R;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+
+//import com.google.firebase.iid.FirebaseInstanceId;
+//import com.google.firebase.iid.InstanceIdResult;
 
 public class MyFirebaseMessagingService extends FirebaseMessagingService {
     private static final String TAG = MyFirebaseMessagingService.class.getSimpleName();
@@ -57,31 +54,31 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
             }
         }
     }
-
-
-    @Override
-    public void onNewToken(String token) {
-        FirebaseInstanceId.getInstance().getInstanceId()
-                .addOnCompleteListener(new OnCompleteListener<InstanceIdResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<InstanceIdResult> task) {
-                        localStorage = new LocalStorage(getApplicationContext());
-                        if (!task.isSuccessful()) {
-                            Log.w(TAG, "getInstanceId failed", task.getException());
-                            return;
-                        }
-                        FirebaseMessaging.getInstance().subscribeToTopic("global");
-                        // Get new Instance ID token
-                        String token = task.getResult().getToken();
-                        localStorage.setFirebaseToken(token);
-                        // Log and toast
-                        Log.d(TAG, token);
-                        // Toast.makeText(getApplicationContext(), token, Toast.LENGTH_SHORT).show();
-                    }
-                });
-
-
-    }
+//
+//
+//    @Override
+//    public void onNewToken(String token) {
+//        FirebaseInstanceId.getInstance().getInstanceId()
+//                .addOnCompleteListener(new OnCompleteListener<InstanceIdResult>() {
+//                    @Override
+//                    public void onComplete(@NonNull Task<InstanceIdResult> task) {
+//                        localStorage = new LocalStorage(getApplicationContext());
+//                        if (!task.isSuccessful()) {
+//                            Log.w(TAG, "getInstanceId failed", task.getException());
+//                            return;
+//                        }
+//                        FirebaseMessaging.getInstance().subscribeToTopic("global");
+//                        // Get new Instance ID token
+//                        String token = task.getResult().getToken();
+//                        localStorage.setFirebaseToken(token);
+//                        // Log and toast
+//                        Log.d(TAG, token);
+//                        // Toast.makeText(getApplicationContext(), token, Toast.LENGTH_SHORT).show();
+//                    }
+//                });
+//
+//
+//    }
 
 
     @RequiresApi(api = Build.VERSION_CODES.Q)

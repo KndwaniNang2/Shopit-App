@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "82294446989",
+    "project_id": "shopit-app-f928f",
+    "storage_bucket": "shopit-app-f928f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82294446989:android:a7a254399b4b8dbe53bbc4",
+        "android_client_info": {
+          "package_name": "com.kondwani.project.shopit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82294446989-81ciu6go894p1rc1h1sni3dgr2qeli97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG1CRh73IGzwtnLqSMWWm1O5yVmK9YaJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82294446989-81ciu6go894p1rc1h1sni3dgr2qeli97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

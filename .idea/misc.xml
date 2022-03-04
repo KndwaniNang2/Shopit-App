@@ -22,7 +22,7 @@
         <entry key="..\:/ShopitApp/app/src/main/res/layout/activity_main.xml" value="0.38697916666666665" />
         <entry key="..\:/ShopitApp/app/src/main/res/layout/activity_product.xml" value="0.38697916666666665" />
         <entry key="..\:/ShopitApp/app/src/main/res/layout/activity_product_view.xml" value="0.38697916666666665" />
-        <entry key="..\:/ShopitApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.3803827751196172" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/ShopitApp/app/src/main/res/layout/activity_welcome.xml" value="0.14722222222222223" />
         <entry key="..\:/ShopitApp/app/src/main/res/layout/app_bar_main.xml" value="0.14722222222222223" />
         <entry key="..\:/ShopitApp/app/src/main/res/layout/badge_icon_layout.xml" value="0.14722222222222223" />
@@ -60,7 +60,7 @@
         <entry key="..\:/ShopitApp/app/src/main/res/layout/row_popuular_products.xml" value="0.38697916666666665" />
         <entry key="..\:/ShopitApp/app/src/main/res/layout/row_products.xml" value="0.38697916666666665" />
         <entry key="..\:/ShopitApp/app/src/main/res/layout/row_search_products.xml" value="0.38697916666666665" />
-        <entry key="..\:/ShopitApp/app/src/main/res/layout/signup_layout.xml" value="0.1" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/signup_layout.xml" value="0.25" />
         <entry key="..\:/ShopitApp/app/src/main/res/layout/spinnertextview.xml" value="0.1" />
         <entry key="..\:/ShopitApp/app/src/main/res/layout/success_dialog.xml" value="0.38697916666666665" />
         <entry key="..\:/ShopitApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.38697916666666665" />

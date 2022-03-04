@@ -28,7 +28,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="5dp"
-                android:background="@drawable/rounded_corner"
+                android:background="@drawable/side_nav_bar"
                 android:gravity="center"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
