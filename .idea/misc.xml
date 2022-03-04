@@ -1,5 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/GroceryStore-with-server/app/src/main/res/layout/activity_cart.xml" value="0.33" />
+        <entry key="..\:/GroceryStore-with-server/app/src/main/res/layout/activity_checkout.xml" value="0.38697916666666665" />
+        <entry key="..\:/GroceryStore-with-server/app/src/main/res/layout/activity_login_register.xml" value="0.38697916666666665" />
+        <entry key="..\:/GroceryStore-with-server/app/src/main/res/layout/activity_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/GroceryStore-with-server/app/src/main/res/layout/fragment_offer.xml" value="0.1" />
+        <entry key="..\:/GroceryStore-with-server/app/src/main/res/layout/nav_header_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/GroceryStore-with-server/app/src/main/res/layout/row_offer.xml" value="0.38697916666666665" />
+        <entry key="..\:/GroceryStore-with-server/app/src/main/res/layout/row_order.xml" value="0.38697916666666665" />
+        <entry key="..\:/GroceryStore-with-server/app/src/main/res/layout/row_popular_home_products.xml" value="0.38697916666666665" />
+        <entry key="..\:/GroceryStore-with-server/app/src/main/res/layout/row_popuular_products.xml" value="0.38697916666666665" />
+        <entry key="..\:/GroceryStore-with-server/app/src/main/res/layout/row_products.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/drawable/active_dot.xml" value="0.1" />
+        <entry key="..\:/ShopitApp/app/src/main/res/drawable/add_to_cart_textview_bg.xml" value="0.1" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/activity_cart.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/activity_checkout.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/activity_login_register.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/activity_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/activity_product.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/activity_product_view.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.3803827751196172" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/activity_welcome.xml" value="0.14722222222222223" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/app_bar_main.xml" value="0.14722222222222223" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/badge_icon_layout.xml" value="0.14722222222222223" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/content_main.xml" value="0.14722222222222223" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/custom_toast.xml" value="0.14722222222222223" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/forgotpassword_layout.xml" value="0.33" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/fragment_address.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/fragment_blank.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/fragment_category.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/fragment_confirm.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/fragment_home.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/fragment_my_order.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/fragment_new.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/fragment_offer.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/fragment_payment.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/fragment_popular.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/fragment_profile.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/item_home_slider.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/item_slider.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/login_layout.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/nav_footer_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/nav_header_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/orderdetails_dialog.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/orderdetails_item.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/progressbar.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/row_cart.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/row_category.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/row_grid_products.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/row_home_category.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/row_new_home_products.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/row_new_products.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/row_offer.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/row_order.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/row_popular_home_products.xml" value="0.14722222222222223" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/row_popuular_products.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/row_products.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/row_search_products.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/signup_layout.xml" value="0.1" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/spinnertextview.xml" value="0.1" />
+        <entry key="..\:/ShopitApp/app/src/main/res/layout/success_dialog.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.38697916666666665" />
+        <entry key="..\:/ShopitApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3475" />
+        <entry key="..\:/ShopitApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3475" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

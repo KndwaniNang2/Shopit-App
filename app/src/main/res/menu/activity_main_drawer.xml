@@ -34,7 +34,7 @@
             android:title="New Products" />
         <item
             android:id="@+id/nav_popular_products"
-            android:icon="@drawable/ic_grid"
+            android:icon="@drawable/ic_options"
             android:title="Popular Products" />
     </group>
 
@@ -48,7 +48,7 @@
             android:title="My Order" />
         <item
             android:id="@+id/nav_my_cart"
-            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:icon="@drawable/icon1"
             android:title="My Cart" />
     </group>
 

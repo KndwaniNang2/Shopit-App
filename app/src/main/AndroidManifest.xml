@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.quintus.labs.grocerystore">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -18,8 +19,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".activity.SplashScreen"
-            android:configChanges="orientation|screenSize|keyboardHidden">
+        <activity android:name="com.kondwani.project.shopit.activity.SplashScreen"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            tools:ignore="MissingClass">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,32 +29,41 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.WelcomeActivity"
+            android:name="com.kondwani.project.shopit.activity.WelcomeActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
-            android:label="@string/app_name">
+            android:label="@string/app_name"
+            tools:ignore="MissingClass">
         </activity>
         <activity
-            android:name=".activity.MainActivity"
+            android:name="com.kondwani.project.shopit.activity.MainActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".activity.BaseActivity" />
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="MissingClass" />
+        <activity android:name="com.kondwani.project.shopit.activity.BaseActivity"
+            tools:ignore="MissingClass" />
         <activity
-            android:name=".activity.ProductActivity"
-            android:configChanges="orientation|screenSize|keyboardHidden" />
+            android:name="com.kondwani.project.shopit.activity.ProductActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            tools:ignore="MissingClass" />
         <activity
-            android:name=".activity.LoginRegisterActivity"
-            android:configChanges="orientation|screenSize|keyboardHidden" />
-        <activity android:name=".activity.CartActivity" />
-        <activity android:name=".activity.CheckoutActivity" />
-        <activity android:name=".activity.ProductViewActivity" />
+            android:name="com.kondwani.project.shopit.activity.LoginRegisterActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            tools:ignore="MissingClass" />
+        <activity android:name="com.kondwani.project.shopit.activity.CartActivity"
+            tools:ignore="MissingClass" />
+        <activity android:name="com.kondwani.project.shopit.activity.CheckoutActivity"
+            tools:ignore="MissingClass" />
+        <activity android:name="com.kondwani.project.shopit.activity.ProductViewActivity"
+            tools:ignore="MissingClass" />
 
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
             android:resource="@drawable/logo" />
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_color"
-            android:resource="@color/colorAccent" /> <!-- Firebase Notifications -->
-        <service android:name=".service.MyFirebaseMessagingService">
+            android:resource="@color/colorAccent" />
+        <service android:name="com.kondwani.project.shopit.service.MyFirebaseMessagingService"
+            tools:ignore="MissingClass">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
